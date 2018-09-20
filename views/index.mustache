@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+ <link rel="stylesheet" type="text/css" href="/partials/style.css">
+{{>head}}
+
+<body class="container">
+	<div class="row">
+
+		<div class="col-md-6 col-md-offset-3" style="text-align:center;margin-bottom:48px">
+			<h1>Simple Node/Express App Using MongoDB  <br> deployed on Turbo </h1>
+			<hr />
+			<div style="background:#f9f9f9;border:1px solid #ddd;border-radius:3px;padding:12px">
+			
+			<form action="/api/profile" method="post" > 
+				<input type="text" name="firstName" placeholder="first name" ><br>
+				<input type="text"  name="lastName"placeholder="last name"><br>
+				<input type="text"  name="age"placeholder="age"><br>
+				<input type="text" name="team" placeholder="team"><br>
+				<input type="text" name="postion" placeholder="position"><br>
+				 <input type="submit" value="Add Profile">
+			</form>
+
+
+			</div>
+		</div>	
+	</div>
+
+
+ <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+</body>
+</html>
